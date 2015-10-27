@@ -6,6 +6,26 @@
   width:1100px;
 }
 
+.leftside {
+  float:left;
+  width: 80%;
+}
+
+.bigtopcontainer {
+    margin: 0 0 0 8%;
+    padding: 1% 1% 1% 1%;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: serif;
+  font-stretch: ultra-condensed;
+}
+
+html {
+  background-color: #BCD1D1;
+}
+
 header {
   background-color: black;
   height: 100px;
