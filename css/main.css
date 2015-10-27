@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Oranienbaum);
+/*for h2*/
+
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -14,6 +18,7 @@
 .bigtopcontainer {
     margin: 0 0 0 8%;
     padding: 1% 1% 1% 1%;
+font-family: 'Oranienbaum', serif;
 }
 
 h2 {
