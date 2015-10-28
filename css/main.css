@@ -5,27 +5,32 @@
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right:15px;
-  width:1100px;
+  padding: 0 1% 1% 1%;
+  width:90%;
 }
 
-.leftside {
+main {
   float:left;
   width: 80%;
 }
 
-.main {
+.bigtopcontainer {
+  background-color: white;
   margin-right: auto;
-  margin-left: 13%;
-  padding-left: 1%;
-  padding-right: 1%;
+  margin-left: auto;
+  padding: 1% 1% 1% 1%;
   font-family: 'Oranienbaum', serif;
-  border: 3px 1px 1px 1px;
-  border-color: black;
-  width: 20%;
-  height:25%;
+  border: 1px solid black;
+  border-top: 10px solid black;
+  width: 80%;
+  height:50%;
 
+
+}
+
+hr {
+  border:0 0 0 0;
+  color: black;
 }
 
 h2 {
