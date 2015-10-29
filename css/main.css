@@ -38,7 +38,8 @@ h2 {
 }
 
 .article {
-  width:80%;
+  width:600px;
+  height:350px;
 }
 
 .bigtopcontainer p {
@@ -47,7 +48,7 @@ h2 {
   font-family: cursive;
   font-size: 13px;
   float:right;
-  width: 20%;
+  width: 33%;
 }
 
 #floatleft {
@@ -56,8 +57,15 @@ h2 {
 }
 
 #floatright {
-  float:right
-  column-width: 20%;
+  float:right;
+  text-align:left;
+  display:inline;
+  column-width: 20%
+}
+
+.caps {
+  text-transform:uppercase;
+  font-weight: bold;
 }
 
 /*h3 {
