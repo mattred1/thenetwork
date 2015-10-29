@@ -24,8 +24,7 @@ main {
   border-top: 10px solid black;
   width: 80%;
   height:50%;
-
-
+  overflow-y: hidden;
 }
 
 hr {
@@ -36,8 +35,27 @@ hr {
 h2 {
   text-transform: uppercase;
   font-family: serif;
-
 }
+
+.bigtopcontainer p {
+  line-height: 90%;
+  color: gray;
+  font-family: cursive;
+  font-size: 13px;
+  float:right;
+  width: 20%;
+}
+
+.bigtopcontainer a {
+  float:right;
+  width: 20%;
+}
+
+.bigtopcontainer img {
+  float:left;
+  width: 80%;
+}
+
 
 html {
   background-color: #BCD1D1;
