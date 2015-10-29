@@ -27,7 +27,7 @@ main {
   overflow-y: hidden;
 }
 
-hr {
+br {
   border:0 0 0 0;
   color: black;
 }
@@ -35,6 +35,10 @@ hr {
 h2 {
   text-transform: uppercase;
   font-family: serif;
+}
+
+.article {
+  width:80%;
 }
 
 .bigtopcontainer p {
@@ -46,16 +50,19 @@ h2 {
   width: 20%;
 }
 
-.bigtopcontainer a {
-  float:right;
-  width: 20%;
-}
-
-.bigtopcontainer img {
+#floatleft {
   float:left;
-  width: 80%;
+  column-width: 80%;
 }
 
+#floatright {
+  float:right
+  column-width: 20%;
+}
+
+/*h3 {
+  float: right;
+}*/
 
 html {
   background-color: #BCD1D1;
