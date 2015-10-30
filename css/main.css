@@ -48,19 +48,19 @@ h2 {
   font-family: cursive;
   font-size: 13px;
   float:right;
-  width: 33%;
+  width: 55%;
 }
 
-#floatleft {
-  float:left;
+/*#left {
   column-width: 80%;
-}
+}*/
 
 #floatright {
   float:right;
   text-align:left;
   display:inline;
   column-width: 20%
+  height:600px;
 }
 
 .caps {
