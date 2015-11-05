@@ -25,11 +25,33 @@ header h1 {
   width: 30%;
 }
 
-.border {
+.topborder {
   border: 1px solid black;
   border-top: 10px solid black;
+  padding: 20px;
 }
 
-.top {
+.bottomborder {
+border: 1px solid black;
+}
 
+.articlefont {
+  font-family: sans-serif;
+  color: gray;
+  font-size: .75em;
+  line-height: 90%;
+}
+
+.right {
+  float: right;
+}
+
+article h1 {
+  font-weight:bold;
+  color:black;
+}
+
+#catpicture {
+  max-width: 100%;
+  height: auto;
 }
