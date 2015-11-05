@@ -1,3 +1,5 @@
+/*@import url(https://fonts.googleapis.com/css?family=Oranienbaum);*/
+
 body {
   background-color: #BCD1D1;
   margin:auto;
@@ -25,25 +27,8 @@ header h1 {
   width: 30%;
 }
 
-.topborder {
-  border: 1px solid black;
-  border-top: 10px solid black;
-  padding: 20px;
-}
-
-.bottomborder {
-border: 1px solid black;
-}
-
-.articlefont {
-  font-family: sans-serif;
-  color: gray;
-  font-size: .75em;
-  line-height: 90%;
-}
-
-.right {
-  float: right;
+h2 {
+ text-transform: uppercase;
 }
 
 article h1 {
@@ -51,7 +36,48 @@ article h1 {
   color:black;
 }
 
+main {
+  width: 80%;
+  margin: 10px;
+}
+
+panel {
+  float: right;
+  width: 20px;
+  border: 1px solid black;
+
+}
+
+.topborder {
+  border: 1px solid black;
+  border-top: 10px solid black;
+  padding: 10px;
+}
+
+.bottomborder {
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: 1px solid black;
+padding: 10px;
+}
+
+.articlefont {
+  font-family: arial black;
+  color: gray;
+  font-size: .75em;
+  line-height: 90%;
+}
+
+.right {
+  float: right;
+  width: 30%;
+}
+
+
+
 #catpicture {
   max-width: 100%;
   height: auto;
+  margin-right: 10px;
+  width:68%;
 }
