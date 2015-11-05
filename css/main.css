@@ -29,6 +29,7 @@ header h1 {
 
 h2 {
  text-transform: uppercase;
+ font-family: 'Oranienbaum', serif;
 }
 
 article h1 {
@@ -45,7 +46,7 @@ panel {
   float: right;
   width: 20px;
   border: 1px solid black;
-
+  height:auto;
 }
 
 .topborder {
@@ -62,7 +63,7 @@ padding: 10px;
 }
 
 .articlefont {
-  font-family: arial black;
+  font-family: arial;
   color: gray;
   font-size: .75em;
   line-height: 90%;
