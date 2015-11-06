@@ -39,12 +39,28 @@ article h1 {
 
 main {
   width: 80%;
-  margin: 10px;
+  margin-right: 10px;
+}
+
+p {
+  margin: 5px;
+  line-height: 15px;
+}
+
+article p:first-child {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: black;
+  text-decoration:underline;
 }
 
 panel {
   float: right;
-  width: 20px;
+  width: 20%;
   border: 1px solid black;
   height:auto;
 }
@@ -60,6 +76,8 @@ border-left: 1px solid black;
 border-right: 1px solid black;
 border-bottom: 1px solid black;
 padding: 10px;
+height:auto;
+display:flex;
 }
 
 .articlefont {
@@ -74,11 +92,16 @@ padding: 10px;
   width: 30%;
 }
 
-
+.ontheweblink {
+  text-transform: uppercase;
+  font-size: .70em;
+  font-weight: 900;
+  color: black;
+}
 
 #catpicture {
   max-width: 100%;
   height: auto;
-  margin-right: 10px;
+  margin-right: auto;
   width:68%;
 }
