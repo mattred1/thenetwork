@@ -47,6 +47,15 @@ p {
   line-height: 15px;
 }
 
+panel {
+  border:10px;
+}
+
+panel section:first-child {
+  text-transform: uppercase;
+  font-weight:bold;
+}
+
 article p:first-child {
   color: black;
   font-weight: bold;
