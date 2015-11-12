@@ -81,6 +81,7 @@ panel {
   border-top: 10px solid black;
   padding: 10px;
   background-color: white;
+  display: flex;
 }
 
 .bottomborder {
@@ -102,6 +103,9 @@ background-color: white;
 
 .right {
   float: right;
+}
+
+.30width {
   width: 30%;
 }
 
@@ -117,4 +121,10 @@ background-color: white;
   height: auto;
   margin-right: auto;
   width:68%;
+}
+
+.logo {
+  height: 30px;
+  width: auto;
+  padding-top: 18px;
 }
