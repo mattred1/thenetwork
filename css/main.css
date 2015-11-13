@@ -105,6 +105,11 @@ background-color: white;
   float: right;
 }
 
+.40width {
+  width: 40%;
+  text-align: justify;
+}
+
 .30width {
   width: 30%;
 }
