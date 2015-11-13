@@ -107,7 +107,7 @@ background-color: white;
 
 .40width {
   width: 40%;
-  text-align: justify;
+/*  text-align: justify;*/
 }
 
 .30width {
@@ -132,4 +132,12 @@ background-color: white;
   height: 30px;
   width: auto;
   padding-top: 18px;
+}
+
+.cool {
+  color:blue;
+}
+
+.hot {
+  color: red;
 }
