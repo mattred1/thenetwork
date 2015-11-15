@@ -50,6 +50,10 @@ p {
   line-height: 15px;
 }
 
+img {
+vertical-align: top;
+}
+
 panel {
   border:10px;
 }
@@ -57,12 +61,6 @@ panel {
 panel section:first-child {
   text-transform: uppercase;
   font-weight:bold;
-}
-
-div p:first-child {
-  color: black;
-  font-weight: bold;
-  font-size: 16px;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -93,7 +91,7 @@ border-right: 1px solid black;
 border-bottom: 1px solid black;
 padding: 10px;
 height:auto;
-display:flex;
+display: inline-block;
 background-color: white;
 }
 
@@ -110,11 +108,11 @@ background-color: white;
 
 .left {
   float: left;
+  width: 40%;
 }
 
 .40width {
   width: 40%;
-/*  text-align: justify;*/
 }
 
 .30width {
@@ -137,7 +135,9 @@ background-color: white;
   margin: 10px;
 }
 
-
+/*.flexbox {
+  display:flexbox;
+}*/
 
 
 
