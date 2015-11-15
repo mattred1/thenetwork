@@ -108,6 +108,10 @@ background-color: white;
   float: right;
 }
 
+.left {
+  float: left;
+}
+
 .40width {
   width: 40%;
 /*  text-align: justify;*/
