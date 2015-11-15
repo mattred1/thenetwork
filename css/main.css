@@ -121,22 +121,14 @@ background-color: white;
   color: black;
 }
 
-#catpicture {
-  max-width: 100%;
-  height: auto;
-  margin-right: auto;
-  width:68%;
-}
-
 .logo {
   height: 30px;
   width: auto;
   padding-top: 18px;
 }
 
-
-.justify  {
-
+.margin {
+  margin: 10px;
 }
 
 
