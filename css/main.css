@@ -1,4 +1,4 @@
-/*@import url(https://fonts.googleapis.com/css?family=Oranienbaum);*/
+@import url(https://fonts.googleapis.com/css?family=Oranienbaum);
 
 body {
   background-color: #BCD1D1;
@@ -134,10 +134,31 @@ background-color: white;
   padding-top: 18px;
 }
 
-.cool {
+
+.justify  {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.cool {
   color:blue;
 }
 
 .hot {
   color: red;
-}
+}*/
