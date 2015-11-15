@@ -32,9 +32,12 @@ h2 {
  font-family: 'Oranienbaum', serif;
 }
 
-article h1 {
-  font-weight:bold;
-  color:black;
+h3 {
+    display: block;
+    font-size: 1.25em;
+    margin: 5px 5px 5px 4px;
+    font-weight: bold;
+    color: black;
 }
 
 main {
