@@ -52,6 +52,7 @@ p {
 
 img {
 vertical-align: top;
+display:inline-block;
 }
 
 panel {
@@ -82,7 +83,7 @@ panel {
   border-top: 10px solid black;
   padding: 10px;
   background-color: white;
-  display: flex;
+  /*display: flex;*/
 }
 
 .bottomborder {
@@ -110,6 +111,14 @@ background-color: white;
   float: left;
 }
 
+/*.center {
+  align-content:center;
+}*/
+
+.fiftywidth {
+  width: 50%;
+}
+
 .fortywidth {
   width: 40%;
 }
@@ -126,12 +135,13 @@ background-color: white;
 }
 
 .logo {
-  height: 30px;
+  height: 35px;
   width: auto;
+  margin-top: -7.65%
 }
 
 .margin {
-  margin: 10px 10px 10px 0px;
+  margin: 5px 5px 5px 5px;
 }
 
 bigimgmargin {
