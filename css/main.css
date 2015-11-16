@@ -110,11 +110,11 @@ background-color: white;
   float: left;
 }
 
-.40width {
+.fortywidth {
   width: 40%;
 }
 
-.30width {
+.thirtywidth {
   width: 30%;
 }
 
@@ -131,7 +131,7 @@ background-color: white;
 }
 
 .margin {
-  margin: 10px;
+  margin: 10px 10px 10px 0px;
 }
 
 bigimgmargin {
