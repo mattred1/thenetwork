@@ -138,7 +138,9 @@ bigimgmargin {
   margin-right: 10px;
 }
 
-
+clearfloat {
+  clear:both;
+}
 
 
 
