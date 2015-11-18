@@ -10,7 +10,7 @@ body {
 header {
   background-color: black;
   height: 100px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 
 header h1 {
@@ -116,7 +116,7 @@ background-color: white;
 }*/
 
 .fiftywidth {
-  width: 50%;
+  width: 49%;
 }
 
 .fortywidth {
