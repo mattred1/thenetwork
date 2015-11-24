@@ -31,6 +31,7 @@ h2 {
  text-transform: uppercase;
  font-family: 'Oranienbaum', serif;
  margin: 0px auto 0px 0px;
+ font-size: 2em;
 }
 
 h3 {
@@ -55,11 +56,11 @@ vertical-align: top;
 display:inline-block;
 }
 
-panel {
+aside {
   border:10px;
 }
 
-panel section:first-child {
+aside section:first-child {
   text-transform: uppercase;
   font-weight:bold;
 }
@@ -70,7 +71,7 @@ a:link, a:visited, a:hover, a:active {
   border-color: #BCD1D1;
 }
 
-panel {
+aside {
   float: right;
   width: 20%;
   border: 1px solid black;
