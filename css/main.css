@@ -112,12 +112,8 @@ aside {
   float: left;
 }
 
-/*.center {
-  align-content:center;
-}*/
-
 .fiftywidth {
-  width: 421.5px;
+  width: 50%;
 }
 
 .fortywidth {
