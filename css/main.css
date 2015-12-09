@@ -4,7 +4,7 @@ body {
   background-color: #BCD1D1;
   margin:auto;
   padding: 8px;
-  width: 80%;
+  width: 79%;
 }
 
 header {
@@ -19,7 +19,6 @@ header h1 {
   line-height: 1;
   text-transform: uppercase;
   text-align: right;
-  width: 40%;
   padding-top: 4%;
   padding-bottom:.5%;
   font-size: .75em;
@@ -58,6 +57,7 @@ display:inline-block;
 
 aside {
   border:10px;
+  height:90%;
 }
 
 aside section:first-child {
@@ -141,9 +141,9 @@ background-color: white;
   margin-top: -7.65%;
 }
 
-.margin {
-  margin: 5px 5px 5px 5px;
-}
+/*.margin {
+  margin: 5px 12px 5px 0px;
+}*/
 
 bigimgmargin {
   margin-right: 10px;
