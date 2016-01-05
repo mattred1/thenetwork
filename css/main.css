@@ -58,7 +58,7 @@ display:inline-block;
 }
 
 aside {
-  border:10px;
+  padding:10px;
 }
 
 aside section:first-child {
@@ -113,7 +113,7 @@ aside {
 }
 
 .fiftywidth {
-  width: 50%;
+  width: 49%;
 }
 
 .fortywidth {
@@ -137,9 +137,9 @@ aside {
   margin-top: -7.65%;
 }
 
-/*.margin {
-  margin: 5px 12px 5px 0px;
-}*/
+.margin {
+  margin: 5px 5px 5px 5px;
+}
 
 bigimgmargin {
   margin-right: 10px;
