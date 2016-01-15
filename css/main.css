@@ -10,7 +10,7 @@ body {
 header {
   background-color: black;
   height: 100px;
-  /*margin-bottom: 20px;*/
+  margin-bottom: 20px;
 }
 
 header h1 {
