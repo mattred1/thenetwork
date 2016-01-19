@@ -112,6 +112,11 @@ aside {
   float: left;
 }
 
+.middle {
+  display:block;
+  margin: auto;
+}
+
 .fiftywidth {
   width: 49%;
 }
