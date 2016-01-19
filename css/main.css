@@ -57,16 +57,11 @@ vertical-align: top;
 display:inline-block;
 }
 
-aside section:first-child {
+aside section {
   text-transform: uppercase;
   font-weight:bold;
+  margin:11px;
 }
-
-aside section:last-child {
-  text-transform: uppercase;
-  font-weight:bold;
-}
-
 
 a:link, a:visited, a:hover, a:active {
   color: black;
@@ -89,8 +84,12 @@ aside {
   font-size: .85em;
 }
 
+aside img {
+  margin:10px;
+}
+
 aside p {
-  margin-bottom:0px;
+  line-height:0px;
 }
 
 .topborder {
