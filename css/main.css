@@ -82,15 +82,16 @@ aside {
   border-top: 10px solid black;
   text-align:center;
   font-size: .85em;
+  line-height:8px;
 }
 
 aside img {
   margin:10px;
 }
 
-aside p {
+/*aside p {
   line-height:0px;
-}
+}*/
 
 .topborder {
   border: 1px solid black;
