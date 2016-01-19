@@ -62,6 +62,12 @@ aside section:first-child {
   font-weight:bold;
 }
 
+aside section:last-child {
+  text-transform: uppercase;
+  font-weight:bold;
+}
+
+
 a:link, a:visited, a:hover, a:active {
   color: black;
   text-decoration: none;
@@ -79,6 +85,12 @@ aside {
   padding-bottom:20px;
   padding-left:10px;
   border-top: 10px solid black;
+  text-align:center;
+  font-size: .85em;
+}
+
+aside p {
+  margin-bottom:0px;
 }
 
 .topborder {
